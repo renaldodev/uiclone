@@ -1,0 +1,32 @@
+body{
+  background-color: #f5f6fa;
+}
+
+.app{
+
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  &__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  &__left{
+    flex:0.9;
+  }
+  &__dropdown{
+    
+  }
+  &__stats{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media(max-width:990px){
+   .app{
+     flex-direction: column;
+   }
+}
